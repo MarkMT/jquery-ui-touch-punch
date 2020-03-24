@@ -168,7 +168,7 @@
     simulateMouseEvent(event, 'mouseup');
 
     // Simulate the mouseout event
-    simulateMouseEvent(event, 'mouseout');
+    //simulateMouseEvent(event, 'mouseout');
 
     // If the touch interaction did not move, it should trigger a click
     // Check for this in two ways - length of time of simulation and distance moved
